@@ -22,19 +22,8 @@
             <img src="img/bg.svg" alt="bg">
         </div>
         <div class="login-content">
-            <form action="validation.php" method="POST">
-            <?php
-                if(isset( $_SESSION['status']))
-                {
-                    
-                    ?>
-                    <div style="background: #F8D7DA;border:2px solid #F5C6CB;border-radius: 6px;color: #721C24;text-align: left;padding: 6px 9px; margin-bottom:19px;">
-                   <?php echo $_SESSION['status'];  ?>
-                </div>
-                    <?php
-                    unset( $_SESSION['status']);
-                }
-                 ?>
+            <form>
+         
                 <img class="avtar" src="img/avatar.svg" alt="avtaar">
                 <h2 class="title">Welcome</h2>
                 <div class="input-div one ">
